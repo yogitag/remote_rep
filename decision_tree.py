@@ -61,4 +61,4 @@ log_loss(Y_test,Y_pred_proba)
 df = pd.DataFrame(Y_pred_proba, columns=['class1_prob', 'class2_prob', 'class3_prob', 'class4_prob', 'class5_prob', 'class6_prob', 'class7_prob'])
 df.head()
 
-df.to_csv('/output/class_probaility.csv')
+df.to_csv('class_probaility.csv')
